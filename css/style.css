@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(218, 209, 161);
+}
+
+.main{
+    background-color: rgb(49, 47, 47);
+    max-width: 400px;
+    margin: auto;
+    margin-top: 150px;
+    padding: 20px 20px;
+    box-sizing: border-box;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    box-shadow: 0px 1px 10px 1px black;
+}
+.data{
+    border-radius: 20px;
+     background-color: black;
+}
+.num1, .num2 {
+    font-family: sans-serif;
+    color: white;       
+    font-size: 25px;  
+    text-align: right;     
+    vertical-align: bottom; 
+    height: 50px;          
+    display: flex;
+    justify-content: flex-end; 
+    align-items: flex-end;    
+    padding: 5px 10px;
+    overflow-wrap: break-word; 
+}
+
+.data{
+    width: 100%;
+    min-height: 150px;
+}
+.allbtn {
+    width: 100%;
+    padding: 10px 10px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    /* border-top: 1px solid rgb(107, 107, 105); */
+}
+.row{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    gap: 20px;
+}
+.row button{
+    font-size: 30px;
+    background-color: black;
+     min-width: 50px;
+    min-height: 50px;
+    color: white;
+    flex: 0 1 70px;
+    text-align: center;
+    /* padding: 20px 20px; */
+    aspect-ratio: 1/1;
+    box-sizing: border-box;
+    border-radius: 50%;
+    border: none;
+    border: 2px solid black;
+    box-shadow: 0px 1px 3px 2px rgb(73, 71, 71);
+
+}
+.row button:hover {
+    border: 2px solid rgb(9, 71, 66);
+    box-sizing: border-box;
+    box-shadow: none;
+}
+.row5 :nth-child(4){
+    background-color: rgb(11, 124, 11);
+    border: rgb(11, 124, 11);
+    color: black;
+}
