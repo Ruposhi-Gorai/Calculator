@@ -1,0 +1,16 @@
+@media only screen and (min-width : 591px) and (max-width: 769px){
+    .main{
+        margin-top: 80px;
+    }
+    .row button{
+        font-size: 20px;
+    }
+}
+@media only screen and (min-width : 0) and (max-width: 590px){
+    .main{
+         margin: 20px 10px;
+    }
+    .row button{
+        font-size: 20px;
+    }
+}
